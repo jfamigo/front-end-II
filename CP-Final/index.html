@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+
+<!--favicon para a pagina-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+
+<!-- biblioteca de fontes-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+<!-- biblioteca de icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+
+	
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+    <title>Checkpoint1</title>
+</head>
+<body>
+		<div class="larger-box">
+			<div class="container-background" >
+				<div class="container-form">
+					<form class="login-form validate-form">
+						<span class="login-form-logo">
+							
+							<!-- link da biblioteca - icone -->
+							<i class="zmdi zmdi-assignment"></i>
+						</span>
+
+						<span class="login-form-title">Get Your Card</span>
+
+						<div class="outer-input validate-input" data-validate = "Nome">
+							<input class="input name" type="text" name="nome" required placeholder="Nome">
+							<span class="focus-input" data-placeholder="&#xf207;"></span>
+						</div>
+
+						<div class="outer-input validate-input" data-validate="Origem">
+							<input class="input origin" type="text" name="origem" required placeholder="Origem">
+							<span class="focus-input" data-placeholder="&#xf276;"></span>
+						</div>
+
+						<div class="outer-input validate-input" data-validate="Descricao">
+							<input class="input description" type="text" name="descricao" required placeholder="Descrição">
+							<span class="focus-input" data-placeholder="&#xf265;"></span>
+						</div>
+
+						<div class="outer-input validate-input" data-validate="URL">
+							<input class="input pic" type="url" name="url" required placeholder="Url Imagem">
+							<span class="focus-input" data-placeholder="&#xf288;"></span>
+						</div>
+
+						<div class="container-background-form-btn">
+							<button class="form-btn" type="submit">Criar</button>
+							<button class="clean-btn" type="reset">Limpar</button>
+						</div>
+						
+					</form>
+				</div>
+			</div>
+		</div>
+	<div class="container-fluid">
+		<div class="cards d-flex flex-wrap">
+            
+		</div>
+	</div>	
+	<script src="js/form.js"></script>
+    </body>
+</html>
